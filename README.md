@@ -9,7 +9,7 @@
 A unified protocol ecosystem for verifiable compute, parallel execution, and decentralized AI infrastructure.
 
 [![Website](https://img.shields.io/badge/Website-nakharax.io-29F06A?style=flat-square)](https://nakharax.io)
-[![XPfirm](https://img.shields.io/badge/Parent-xpfirm.com-111318?style=flat-square&logo=github&logoColor=white)](https://xpfirm.com)
+[![XpFirm](https://img.shields.io/badge/Product-xpfirm.com-111318?style=flat-square&logo=github&logoColor=white)](https://xpfirm.com)
 [![Testnet](https://img.shields.io/badge/Testnet-86137-29F06A?style=flat-square)](#network)
 [![Status](https://img.shields.io/badge/Status-Active%20Public%20Testnet-FF7A1A?style=flat-square)](#network)
 [![License](https://img.shields.io/badge/License-MIT-FF7A1A?style=flat-square)](LICENSE)
@@ -20,7 +20,7 @@ A unified protocol ecosystem for verifiable compute, parallel execution, and dec
 
 ## Overview
 
-This repository is the public landing page and navigation hub for the nakharax ecosystem, operating under the broader xpfirm.com umbrella.
+This repository is the public landing page and navigation hub for the nakharax ecosystem. NakharaX is the parent company, and XpFirm (`xpfirm.com`) is one of its products.
 
 It is intentionally a documentation-first entry point. The actual implementation work lives in the upstream monorepo:
 
@@ -74,8 +74,9 @@ axionaxprotocol/nakharax-readme
 
 ## Project at a glance
 
-- Product: `nakharax.io`
-- Parent organization: `xpfirm.com`
+- Parent company: NakharaX
+- Product: XpFirm (`xpfirm.com`)
+- Ecosystem site: `nakharax.io`
 - Native token: `NAK`
 - Network posture: public testnet active
 - Consensus model: `PoPC`
@@ -154,12 +155,14 @@ git submodule update --init --recursive
 
 ## Brand and identity
 
-The project is presented under the `nakharax` brand, with `xpfirm.com` as the broader organizational umbrella.
+The parent company is NakharaX. The project is presented under the `nakharax` brand, and XpFirm (`xpfirm.com`) is one of its products.
 
 | Area | Name |
 | :--- | :--- |
-| Product site | nakharax.io |
-| Organization site | xpfirm.com |
+| Parent company | NakharaX |
+| Product | XpFirm |
+| Ecosystem site | nakharax.io |
+| Product site | xpfirm.com |
 | Former project name | Axionax Protocol |
 | Native token | NAK |
 
@@ -181,7 +184,7 @@ Project milestones continue to be tracked in the upstream repo and referenced fr
 ## Quick links
 
 - Website: https://nakharax.io
-- Parent organization: https://xpfirm.com
+- Product (XpFirm): https://xpfirm.com
 - Upstream repo: https://github.com/axionaxprotocol/nakharax
 - Issues: https://github.com/axionaxprotocol/nakharax/issues
 - Pull requests: https://github.com/axionaxprotocol/nakharax/pulls
@@ -213,8 +216,8 @@ The upstream implementation repo is maintained separately and may carry project-
 <div align="center">
 
 [![Website](https://img.shields.io/badge/nakharax.io-29F06A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://nakharax.io)
-[![XPfirm](https://img.shields.io/badge/xpfirm.com-111318?style=for-the-badge&logo=github&logoColor=white)](https://xpfirm.com)
+[![XpFirm](https://img.shields.io/badge/xpfirm.com-111318?style=for-the-badge&logo=github&logoColor=white)](https://xpfirm.com)
 
-<sub>Organization landing page for nakharax.io under xpfirm.com · maintained as a documentation and navigation entry point.</sub>
+<sub>Landing page for nakharax.io · parent company NakharaX · product XpFirm (xpfirm.com) · maintained as a documentation and navigation entry point.</sub>
 
 </div>

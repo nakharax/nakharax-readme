@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="550" viewBox="0 0 1280 550" role="img" aria-labelledby="title desc">
+<title id="title">NakharaX: Engineering what comes next</title>
+<desc id="desc">Premium Aurora inspired dark gradient banner featuring NakharaX brand, luminescent orbital system, and three ecosystem pillars.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090D18"/><stop offset=".52" stop-color="#101627"/><stop offset="1" stop-color="#091120"/></linearGradient>
+  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#88FFF0"/><stop offset=".52" stop-color="#A68AFF"/><stop offset="1" stop-color="#FA9B77"/></linearGradient>
+  <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#81F8E2"/><stop offset=".55" stop-color="#A98EFF"/><stop offset="1" stop-color="#ED9C80"/></linearGradient>
+  <radialGradient id="glow1"><stop stop-color="#8A6EFF" stop-opacity=".55"/><stop offset="1" stop-color="#8A6EFF" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glow2"><stop stop-color="#20F0C4" stop-opacity=".32"/><stop offset="1" stop-color="#20F0C4" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#C5C9E6" stroke-opacity=".065" stroke-width="1"/></pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="30"/></filter>
+  <filter id="softGlow"><feGaussianBlur stdDeviation="8"/></filter>
+  <clipPath id="clip"><rect width="1280" height="550" rx="26"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+  <rect width="1280" height="550" fill="url(#bg)"/>
+  <rect width="1280" height="550" fill="url(#grid)"/>
+  <ellipse cx="1090" cy="133" rx="490" ry="265" fill="url(#glow1)" opacity=".82"/>
+  <ellipse cx="780" cy="457" rx="430" ry="230" fill="url(#glow2)" opacity=".78"/>
+  <path d="M500 0C768 216 988 66 1280 236" fill="none" stroke="url(#line)" stroke-opacity=".10" stroke-width="140" filter="url(#blur)"/>
+  <path d="M650 -70C870 180 1060 88 1300 254" fill="none" stroke="#BFA5FF" stroke-opacity=".24" stroke-width="2"/>
+  <line x1="820" y1="40" x2="480" y2="530" stroke="#8F8BFF" stroke-opacity="0.14" stroke-width="1"/><line x1="844" y1="40" x2="520" y2="530" stroke="#8F8BFF" stroke-opacity="0.045" stroke-width="1"/><line x1="868" y1="40" x2="560" y2="530" stroke="#8F8BFF" stroke-opacity="0.045" stroke-width="1"/><line x1="892" y1="40" x2="600" y2="530" stroke="#8F8BFF" stroke-opacity="0.045" stroke-width="1"/><line x1="916" y1="40" x2="640" y2="530" stroke="#8F8BFF" stroke-opacity="0.14" stroke-width="1"/><line x1="940" y1="40" x2="680" y2="530" stroke="#8F8BFF" stroke-opacity="0.045" stroke-width="1"/><line x1="964" y1="40" x2="720" y2="530" stroke="#8F8BFF" stroke-opacity="0.045" stroke-width="1"/><line x1="988" y1="40" x2="760" y2="530" stroke="#8F8BFF" stroke-opacity="0.045" stroke-width="1"/><line x1="1012" y1="40" x2="800" y2="530" stroke="#8F8BFF" stroke-opacity="0.14" stroke-width="1"/><line x1="1036" y1="40" x2="840" y2="530" stroke="#8F8BFF" stroke-opacity="0.045" stroke-width="1"/><line x1="1060" y1="40" x2="880" y2="530" stroke="#8F8BFF" stroke-opacity="0.045" stroke-width="1"/><line x1="1084" y1="40" x2="920" y2="530" stroke="#8F8BFF" stroke-opacity="0.045" stroke-width="1"/><line x1="1108" y1="40" x2="960" y2="530" stroke="#8F8BFF" stroke-opacity="0.14" stroke-width="1"/><line x1="1132" y1="40" x2="1000" y2="530" stroke="#8F8BFF" stroke-opacity="0.045" stroke-width="1"/><line x1="1156" y1="40" x2="1040" y2="530" stroke="#8F8BFF" stroke-opacity="0.045" stroke-width="1"/><line x1="1180" y1="40" x2="1080" y2="530" stroke="#8F8BFF" stroke-opacity="0.045" stroke-width="1"/><line x1="1204" y1="40" x2="1120" y2="530" stroke="#8F8BFF" stroke-opacity="0.14" stroke-width="1"/><line x1="1228" y1="40" x2="1160" y2="530" stroke="#8F8BFF" stroke-opacity="0.045" stroke-width="1"/><line x1="1252" y1="40" x2="1200" y2="530" stroke="#8F8BFF" stroke-opacity="0.045" stroke-width="1"/><circle cx="790" cy="34" r="2" fill="#77FFE4" opacity=".85"/><circle cx="927" cy="137" r="1" fill="#B7A9FF" opacity=".4"/><circle cx="1064" cy="240" r="1" fill="#B7A9FF" opacity=".4"/><circle cx="1201" cy="343" r="1" fill="#77FFE4" opacity=".4"/><circle cx="908" cy="446" r="1" fill="#B7A9FF" opacity=".4"/><circle cx="1045" cy="90" r="1" fill="#B7A9FF" opacity=".85"/><circle cx="1182" cy="193" r="1" fill="#77FFE4" opacity=".4"/><circle cx="889" cy="296" r="2" fill="#B7A9FF" opacity=".4"/><circle cx="1026" cy="399" r="1" fill="#B7A9FF" opacity=".4"/><circle cx="1163" cy="43" r="1" fill="#77FFE4" opacity=".4"/><circle cx="870" cy="146" r="1" fill="#B7A9FF" opacity=".85"/><circle cx="1007" cy="249" r="1" fill="#B7A9FF" opacity=".4"/><circle cx="1144" cy="352" r="1" fill="#77FFE4" opacity=".4"/><circle cx="851" cy="455" r="1" fill="#B7A9FF" opacity=".4"/><circle cx="988" cy="99" r="2" fill="#B7A9FF" opacity=".4"/><circle cx="1125" cy="202" r="1" fill="#77FFE4" opacity=".85"/><circle cx="832" cy="305" r="1" fill="#B7A9FF" opacity=".4"/><circle cx="969" cy="408" r="1" fill="#B7A9FF" opacity=".4"/><circle cx="1106" cy="52" r="1" fill="#77FFE4" opacity=".4"/><circle cx="813" cy="155" r="1" fill="#B7A9FF" opacity=".4"/><circle cx="950" cy="258" r="1" fill="#B7A9FF" opacity=".85"/><circle cx="1087" cy="361" r="2" fill="#77FFE4" opacity=".4"/><circle cx="794" cy="464" r="1" fill="#B7A9FF" opacity=".4"/><circle cx="931" cy="108" r="1" fill="#B7A9FF" opacity=".4"/><circle cx="1068" cy="211" r="1" fill="#77FFE4" opacity=".4"/><circle cx="1205" cy="314" r="1" fill="#B7A9FF" opacity=".85"/>
+  <rect x=".75" y=".75" width="1278.5" height="548.5" rx="25" fill="none" stroke="#E1E6FF" stroke-opacity=".14" stroke-width="1.5"/>
+  <rect x="63" y="53" width="14" height="14" rx="4" fill="#6BF5C4"/>
+  <text x="91" y="65" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="4" fill="#DDE4F8">NAKHARAX</text>
+  <path d="M63 102H410" stroke="#A3B7CC" opacity=".22"/>
+  <text x="63" y="151" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3.5" fill="#9BEBDE">THE NAKHARAX ECOSYSTEM</text>
+  <text x="59" y="230" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="69" font-weight="750" letter-spacing="-3" fill="#F4F7FF">Engineering</text>
+  <text x="59" y="305" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="69" font-weight="750" letter-spacing="-3" fill="#F4F7FF">what comes <tspan fill="#9AEEDE">next.</tspan></text>
+  <text x="63" y="357" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" fill="#ACB8D0">Verifiable infrastructure. Intelligent systems.</text>
+  <text x="63" y="386" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" fill="#ACB8D0">Products built with purpose.</text>
+  <g transform="translate(927 247)">
+    <circle r="207" fill="none" stroke="url(#orbit)" stroke-opacity=".26" stroke-width="1"/>
+    <circle r="166" fill="none" stroke="#D6D3FF" stroke-opacity=".14" stroke-width="1" stroke-dasharray="4 8"/>
+    <circle r="124" fill="none" stroke="url(#orbit)" stroke-opacity=".68" stroke-width="1.5" transform="rotate(-20)"/>
+    <ellipse rx="228" ry="88" transform="rotate(-26)" fill="none" stroke="#6EFFE1" stroke-opacity=".39" stroke-width="1.5"/>
+    <ellipse rx="218" ry="86" transform="rotate(36)" fill="none" stroke="#AE94FF" stroke-opacity=".3" stroke-width="1.2"/>
+    <circle r="91" fill="#17243C" fill-opacity=".72" stroke="#9ACFFF" stroke-opacity=".28"/>
+    <circle r="73" fill="#1E2B47" stroke-opacity=".4" stroke="#B7F0E1" stroke-opacity=".3" />
+    <circle r="48" fill="url(#glow2)" opacity=".9"/>
+    <g transform="translate(-31 -39) scale(.45)">
+      <path d="M56 202H200L181 222H75L56 202Z" fill="#D1FFF4"/>
+      <path d="M83 176H173L160 191H96L83 176Z" fill="#FFB084"/>
+      <path d="M60 54H96L108 66V166H72L60 154V54Z" fill="#E5F6FF"/>
+      <path d="M148 54H184L196 66V154L184 166H148V54Z" fill="#E5F6FF"/>
+      <path d="M96 54H132L196 166H160L96 54Z" fill="#E5F6FF"/>
+      <path d="M96 54H125L141 82H112L96 54Z" fill="#61F5C1"/>
+      <circle cx="196" cy="66" r="7" fill="#61F5C1"/>
+      <circle cx="60" cy="154" r="7" fill="#61F5C1"/>
+    </g>
+    <circle cx="117" cy="-41" r="8" fill="#6FF9DD"/>
+    <circle cx="117" cy="-41" r="17" fill="#6FF9DD" opacity=".25" filter="url(#softGlow)"/>
+    <circle cx="-123" cy="-13" r="5" fill="#CBA8FF"/>
+    <circle cx="41" cy="202" r="6" fill="#FFAF8D"/>
+    <circle cx="-187" cy="79" r="5" fill="#6FF9DD"/>
+  </g>
+  <g>
+    <rect x="721" y="88" width="168" height="48" rx="12" fill="#101B2D" stroke="#ACF1E2" stroke-opacity=".27"/>
+    <circle cx="742" cy="111" r="4" fill="#6EF0C3"/>
+    <text x="756" y="117" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="1.2" fill="#DCF9EF">PROTOCOL / R&amp;D</text>
+    <rect x="1044" y="352" width="157" height="49" rx="12" fill="#151B35" stroke="#B7A3FA" stroke-opacity=".38"/>
+    <circle cx="1065" cy="375" r="4" fill="#B49BFF"/>
+    <text x="1079" y="381" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="1" fill="#EFEAFF">PRODUCT / XPFIRM</text>
+  </g>
+  <path d="M62 437H1218" stroke="#BBCDE2" opacity=".22"/>
+  <rect x="62" y="436" width="270" height="2" fill="url(#line)"/>
+  <text x="63" y="473" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" fill="#92A0B7" letter-spacing="2">01 / INFRASTRUCTURE</text>
+  <text x="448" y="473" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" fill="#92A0B7" letter-spacing="2">02 / COMPUTE + AI</text>
+  <text x="842" y="473" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" fill="#92A0B7" letter-spacing="2">03 / DIGITAL PRODUCTS</text>
+  <text x="63" y="507" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#D4E0F0">nakharax.com</text>
+  <text x="1217" y="507" text-anchor="end" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#899BB4">BUILD WITH INTENT</text>
+</g>
+</svg>

@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://nakharax.com">
-  <img src="assets/aurora-hero.svg" alt="NakharaX — Engineering what comes next. Aurora-inspired ecosystem visual." width="100%" />
+  <img src="./assets/aurora-hero.png" alt="NakharaX — Engineering what comes next. Aurora-inspired ecosystem visual." width="100%" />
 </a>
 
 <br />
@@ -26,7 +26,7 @@ NakharaX is the **parent company**. XpFirm is **one of its products**.
 
 We believe infrastructure and products should be connected by **engineering discipline**, not by inflated claims. Each initiative has its own scope, milestones, and readiness gates.
 
-<img src="assets/ecosystem-map.svg" alt="NakharaX parent ecosystem, connecting the experimental NakharaX Protocol, compute and AI engineering, and XpFirm product." width="100%" />
+<img src="./assets/ecosystem-map.png" alt="NakharaX parent ecosystem, connecting the experimental NakharaX Protocol, compute and AI engineering, and XpFirm product." width="100%" />
 
 <table>
 <tr>
@@ -51,7 +51,7 @@ We believe infrastructure and products should be connected by **engineering disc
 ## 02 · Featured product — XpFirm
 
 <a href="https://xpfirm.com">
-  <img src="assets/xpfirm-spotlight.svg" alt="XpFirm trading risk and performance workspace; conceptual product visualization, not real account data." width="100%" />
+  <img src="./assets/xpfirm-spotlight.png" alt="XpFirm trading risk and performance workspace; conceptual product visualization, not real account data." width="100%" />
 </a>
 
 **A focused workspace for traders who take risk seriously.** XpFirm is a NakharaX product centered on risk awareness, trade decisions, and reviewing performance with more context.
@@ -120,9 +120,9 @@ This repository (`nakharax/nakharax-readme`) is **the public-facing landing page
 nakharax-readme/
 ├── README.md
 ├── assets/
-│   ├── aurora-hero.svg
-│   ├── ecosystem-map.svg
-│   ├── xpfirm-spotlight.svg
+│   ├── aurora-hero.png
+│   ├── ecosystem-map.png
+│   ├── xpfirm-spotlight.png
 │   ├── nakharax_brand.svg
 │   └── nakharax_token.svg
 ├── .github/

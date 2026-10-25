@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://nakharax.com">
-  <img src="./assets/aurora-hero.png" alt="NakharaX — Engineering what comes next. Aurora-inspired ecosystem visual." width="100%" />
+  <img src="./assets/nakharax-aurora-hero.jpg" alt="NakharaX official iridescent Aurora logo and wordmark on a luminous pastel backdrop" width="100%" />
 </a>
 
 <br />
@@ -108,6 +108,8 @@ Technical ambition matters. **Operational evidence matters more.** NakharaX Prot
 
 </td></tr>
 </table>
+
+**Brand assets:** [View the supplied Aurora logo](./assets/nakharax-aurora-logo.jpg) · [View the GitHub hero banner](./assets/nakharax-aurora-hero.jpg). The README hero uses the supplied logo artwork, not a newly invented symbol.
 
 The infrastructure initiative was formerly called **Axionax Protocol**. Historic names and development artifacts may still appear in code and migration notes; they do not supersede current naming or operating evidence.
 

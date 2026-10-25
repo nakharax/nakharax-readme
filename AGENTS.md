@@ -1,18 +1,31 @@
 # AGENTS.md
 
-## Repository Overview
+## Scope
 
-This is the **organization-level landing page** for nakharax.io, formerly Axionax Protocol (`axionaxprotocol/axionaxprotocol`). It is explicitly **not a code repository** — it contains only documentation (`README.md`) and GitHub Copilot configuration.
+This repository (`nakharax/nakharax-readme`) is a **public documentation and brand landing page**, not the protocol runtime, an XpFirm application or an implementation monorepo.
 
-The actual runnable code lives in a single monorepo:
-- **nakharax** (Rust/Python core + Next.js/React/TypeScript apps + shared SDK): `axionaxprotocol/nakharax`
+NakharaX is the parent company and ecosystem steward; **XpFirm is a NakharaX product**. The NakharaX public domain is `https://nakharax.com`, and XpFirm's site is `https://xpfirm.com`.
 
-See `.github/copilot-instructions.md` for full context on this repo's purpose and content guidelines.
+## Content rules
 
-## Cursor Cloud specific instructions
+- Write public-facing repository text in English, with clear headings and working links.
+- Maintain `README.md`, `assets/` and documentation/editing instructions only.
+- Do not add application or infrastructure code here or duplicate upstream implementation docs.
+- Do not treat the presence of an app route as proof that a deployed feature works.
+- Clearly separate development, local/mock demonstrations, public testnet and production.
+- Testnet chain ID is `86137`; mainnet chain ID `86150` is reserved, **not launched**.
+- The canonical public RPC address shown by the protocol is `https://rpc.nakharax.com`; verify liveness rather than asserting it from a badge.
+- The last operational source document reviewed on 2 October 2026 reported a **failed block-freshness check**. Do not reuse historic passing checks to claim current health.
+- Use dated primary implementation/operations evidence for finality, throughput, validator count and marketplace deployment claims.
+- Never repoint or advance the `nakharax/` submodule without a separate explicit, reviewed dependency change. The current `.gitmodules` references an older repository location and access may be restricted.
+- Preserve LICENSE terms; changes to brand references in a copyright notice require their own review.
 
-- **No build, lint, or test tooling exists in this repo.** There is no `package.json`, no lockfile, no Makefile, and no CI configuration. Do not attempt to run `pnpm install`, `npm install`, `cargo build`, or similar commands.
-- **No dependencies to install.** The update script is intentionally a no-op (`echo "No dependencies to install"`).
-- **Content is static.** The repo contains `README.md` (GitHub profile page) and `.github/copilot-instructions.md`.
-- **Edits should be limited to documentation.** Per `.github/copilot-instructions.md`, do not add source code, create new directories, or duplicate content from the upstream monorepo.
-- **For actual development work** on the blockchain core, web apps, SDK, or marketplace, you need to clone and work in the `nakharax` repository — not this one.
+## Workflow
+
+1. Inspect the existing README and its referenced local assets.
+2. Validate current domain, product relationships and network caveats before updating.
+3. Change only necessary documentation or asset files.
+4. Check Markdown links, asset paths, branding and status language.
+5. Use a topic branch and PR; do not force-push or bypass CI.
+
+No build, package installation, or runtime tests are defined for this landing-page repository. Verify the content and diff instead.

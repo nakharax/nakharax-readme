@@ -1,223 +1,121 @@
 <div align="center">
 
-<img src="assets/nakharax_brand.svg" width="420" alt="nakharax.io" />
+<img src="assets/nakharax_brand.svg" width="420" alt="NakharaX brand" />
 
-<br />
+# NakharaX
 
-# nakharax.io
+**Building trustworthy infrastructure for verifiable compute and practical AI.**
 
-A unified protocol ecosystem for verifiable compute, parallel execution, and decentralized AI infrastructure.
+NakharaX is the parent company and ecosystem steward. **XpFirm is one of its products.**
 
-[![Website](https://img.shields.io/badge/Website-nakharax.io-29F06A?style=flat-square)](https://nakharax.io)
-[![XpFirm](https://img.shields.io/badge/Product-xpfirm.com-111318?style=flat-square&logo=github&logoColor=white)](https://xpfirm.com)
-[![Testnet](https://img.shields.io/badge/Testnet-86137-29F06A?style=flat-square)](#network)
-[![Status](https://img.shields.io/badge/Status-Active%20Public%20Testnet-FF7A1A?style=flat-square)](#network)
-[![License](https://img.shields.io/badge/License-MIT-FF7A1A?style=flat-square)](LICENSE)
+[![NakharaX](https://img.shields.io/badge/Website-nakharax.com-29F06A?style=flat-square)](https://nakharax.com)
+[![XpFirm](https://img.shields.io/badge/Product-XpFirm-111318?style=flat-square)](https://xpfirm.com)
+[![Testnet](https://img.shields.io/badge/Testnet-Chain%2086137-FF7A1A?style=flat-square)](#network-status-and-trust)
+[![Mainnet](https://img.shields.io/badge/Mainnet-Not%20launched-555555?style=flat-square)](#network-status-and-trust)
+[![License](https://img.shields.io/badge/Docs-MIT-555555?style=flat-square)](LICENSE)
 
 </div>
 
 ---
 
-## Overview
+## About the ecosystem
 
-This repository is the public landing page and navigation hub for the nakharax ecosystem. NakharaX is the parent company, and XpFirm (`xpfirm.com`) is one of its products.
+**NakharaX** is the parent company. Its work spans decentralized infrastructure, verifiable computing and AI-enabled products. The company, protocol and products are distinct: a protocol milestone must not be presented as proof that a customer product is production-ready.
 
-It is intentionally a documentation-first entry point. The actual implementation work lives in the upstream monorepo:
+| Area | Role | Link |
+| :--- | :--- | :--- |
+| NakharaX | Parent company and ecosystem | [nakharax.com](https://nakharax.com) |
+| NakharaX Protocol | Experimental Layer-1 and decentralized compute infrastructure | [Protocol portal](https://nakharax.com) |
+| XpFirm | Trading risk-management and performance workspace; a NakharaX product | [xpfirm.com](https://xpfirm.com) |
 
-- `axionaxprotocol/nakharax` — core protocol, worker services, SDK, web applications, and deployment tooling
+The protocol was previously known as **Axionax Protocol**. The native testnet asset is referred to as **tNAK**; use network and token identifiers in their proper context, and do not imply that a mainnet token has launched.
 
-This repository helps visitors understand the mission, find the correct codebase, and track the public status of the project without duplicating upstream implementation work.
+This repository is a **documentation and navigation landing page**, not a production runtime or the complete source tree.
 
-> This repository is not the runtime codebase. For protocol implementation, apps, and SDK development, work in the upstream repo and open issues or pull requests there.
+## What the protocol is working toward
 
----
+NakharaX Protocol explores:
 
-## Why nakharax
+- Distributed compute workers and AI-oriented workload orchestration
+- Verification and accounting for compute execution, including PoPC research
+- A Layer-1 network and JSON-RPC developer interfaces
+- Marketplace, SDK and operator tooling with explicit production-readiness gates
 
-nakharax is designed for verifiable, large-scale workloads across compute-intensive and AI-oriented operations.
+These describe the project's direction and available development surfaces, **not a blanket claim that every feature is available on the public network**. Portal routes, simulated demonstrations, local contract tests and deployed on-chain functionality must be distinguished.
 
-The protocol combines:
+## Network status and trust
 
-- a trust layer for settlement and accounting
-- a distributed worker layer for compute supply
-- probabilistic verification through Proof of Probabilistic Checking (PoPC)
-- JSON-RPC and developer-facing interfaces for integrations and tooling
+| Item | Current documented posture |
+| :--- | :--- |
+| Public testnet chain ID | `86137` (`0x15079`) |
+| RPC endpoint | [rpc.nakharax.com](https://rpc.nakharax.com) |
+| Testnet availability | **Verify live** before relying on it; reachability alone is not proof of advancing blocks or finality |
+| Mainnet chain ID | `86150` — reserved; **Mainnet not launched** |
+| Marketplace | Functionality varies by version and environment; do not equate local fixtures with a public deployment |
+| Performance and finality | Benchmarks and assurances require dated, reproducible evidence |
 
-The project intentionally keeps a single monorepo architecture so the protocol, apps, and SDK evolve in sync.
+**Evidence boundary:** The protocol's operational-status document was reviewed on **2 October 2026** and recorded a failed read-only liveness check (11 of 12 checks passed; block freshness failed). An older successful sample does not establish the network's state today. Before claiming healthy consensus, live marketplace operation or production readiness, obtain a new dated verification. The protocol's current-status and architecture-gate documents are maintained with the implementation source, which may require repository access.
 
----
+The public [protocol portal](https://nakharax.com) exposes network tools and interfaces, but the website's labels or demo content are not substitutes for independently checked network evidence.
 
-## What this repository does
+## Engineering and release posture
 
-This repo serves as the project front door and organizational reference point. It includes:
+- **Testnet:** experimental; operational liveness, validator independence and finality need ongoing qualification.
+- **Mainnet:** gated, not live. Do not publish a release date as a commitment.
+- **Marketplace and AI workloads:** distinguish live/testnet evidence from local-only, mock and future capabilities.
+- **Source of truth:** implementation code, dated operational reports, CI evidence and release gates take precedence over marketing copy and historic roadmap targets.
 
-- project overview and positioning
-- upstream navigation and contribution guidance
-- public network and milestone status
-- branding and ecosystem identity
-- Git submodule tracking for the active monorepo
-
-### Repository structure
-
-```text
-axionaxprotocol/nakharax-readme
-├── README.md
-├── LICENSE
-├── AGENTS.md
-├── assets/
-├── .github/
-├── .gitmodules
-└── nakharax/      ← submodule: axionaxprotocol/nakharax
-```
-
----
-
-## Project at a glance
-
-- Parent company: NakharaX
-- Product: XpFirm (`xpfirm.com`)
-- Ecosystem site: `nakharax.io`
-- Native token: `NAK`
-- Network posture: public testnet active
-- Consensus model: `PoPC`
-- Core stack: Rust, Python, TypeScript, Next.js, Docker
-
-### Network
-
-- Chain ID: `86137`
-- Public RPC: `https://rpc.nakharax.io`
-- Status: active public testnet workstream
-
-### Mainnet
-
-- Planned chain ID: `86150`
-- Status: roadmap and launch preparation
-
----
-
-## Architecture map
-
-The project is structured around a single implementation monorepo:
+## Repository guide
 
 ```text
-axionaxprotocol/nakharax
-├── apps/
-│   ├── web/              # public dApp and marketplace experience
-│   └── os-dashboard/     # self-hosted node operating interface
-├── services/
-│   └── core/            # blockchain core and DeAI worker services
-├── packages/
-│   └── sdk/             # shared TypeScript client and tooling
-├── docs/
-│   └── ...              # architecture and project documentation
-├── scripts/
-│   └── ...              # operational tooling
-└── README.md
+nakharax/nakharax-readme
+├── README.md                 # This public landing page
+├── AGENTS.md                 # Editing guidance
+├── .github/                 # Contributor/editor instructions
+├── assets/                  # Brand artwork
+├── LICENSE                  # License for this repository
+├── .gitmodules              # Pinned submodule configuration
+└── nakharax/                # Git submodule (pinned revision)
 ```
 
-This makes it easier to understand where implementation belongs:
+The implementation project includes node/consensus and worker components, operator tooling, contracts, SDKs, an OS dashboard and technical documentation. The implementation repository is maintained separately and **may require access**.
 
-- compute and protocol logic → `services/core`
-- web and product experiences → `apps`
-- developer integrations → `packages`
-- cross-cutting product guidance → `docs` and `scripts`
+**Submodule note:** The existing `nakharax/` gitlink and `.gitmodules` still reference the former `axionaxprotocol/nakharax` location. This README update does **not** silently retarget that dependency or advance its pinned SHA. Maintainers should validate repository access and migrate the submodule in a separately reviewed change.
 
----
-
-## Upstream monorepo
-
-The active development repository is:
-
-- https://github.com/axionaxprotocol/nakharax
-
-It contains the complete system architecture, including:
-
-- `apps/` — web and dashboard apps
-- `services/core/` — blockchain core and worker services
-- `packages/` — shared SDK and typed clients
-- `docs/` — architecture and project documentation
-- `scripts/` — deployment and operational tooling
-
-### Clone with submodule
+### Clone this landing repository
 
 ```bash
-git clone --recurse-submodules https://github.com/axionaxprotocol/nakharax-readme.git
+git clone https://github.com/nakharax/nakharax-readme.git
 cd nakharax-readme
 ```
 
-If you already cloned without submodules:
+If you have access to the configured source repository and require the pinned checkout:
 
 ```bash
 git submodule update --init --recursive
 ```
 
----
-
-## Brand and identity
-
-The parent company is NakharaX. The project is presented under the `nakharax` brand, and XpFirm (`xpfirm.com`) is one of its products.
-
-| Area | Name |
-| :--- | :--- |
-| Parent company | NakharaX |
-| Product | XpFirm |
-| Ecosystem site | nakharax.io |
-| Product site | xpfirm.com |
-| Former project name | Axionax Protocol |
-| Native token | NAK |
-
----
-
-## Roadmap
-
-| Phase | Focus | Status |
-| :--- | :--- | :---: |
-| 1 | Foundation and protocol scaffolding | Done |
-| 2 | Optimization and hardening | Done |
-| 3 | Launch preparation and brand alignment | In progress |
-| 4 | Mainnet rollout | Planned |
-
-Project milestones continue to be tracked in the upstream repo and referenced from this landing page.
-
----
-
-## Quick links
-
-- Website: https://nakharax.io
-- Product (XpFirm): https://xpfirm.com
-- Upstream repo: https://github.com/axionaxprotocol/nakharax
-- Issues: https://github.com/axionaxprotocol/nakharax/issues
-- Pull requests: https://github.com/axionaxprotocol/nakharax/pulls
-- Docs: https://nakharax.io
-
----
+Submodule initialization may fail for readers without upstream access. That does not affect reading this landing page.
 
 ## Contributing
 
-This landing repo is not where protocol implementation occurs. If you want to contribute to:
+Documentation corrections to this landing page are welcome. For protocol code, deployment changes or test evidence, work in the maintained implementation repository with the appropriate access. Please separate observed facts from proposals, attach dates to network checks and never promote mock or local results into production claims.
 
-- blockchain logic and validator code → `nakharax/services/core`
-- web or product UI work → `nakharax/apps`
-- shared SDK work → `nakharax/packages`
-- deployment or operational tooling → `nakharax/scripts`
+## Links
 
-please work in the upstream repository and open a pull request there.
-
----
+- [NakharaX website](https://nakharax.com)
+- [XpFirm product](https://xpfirm.com)
+- [Protocol app directory](https://nakharax.com/apps)
+- [Public node interfaces](https://nakharax.com/nodes)
+- [Landing-page issues](https://github.com/nakharax/nakharax-readme/issues)
+- [Landing-page pull requests](https://github.com/nakharax/nakharax-readme/pulls)
 
 ## License
 
-This repository is distributed under the MIT license. See [LICENSE](LICENSE) for the full text.
-
-The upstream implementation repo is maintained separately and may carry project-specific licensing terms by subtree or module.
+The documentation and artwork in **this repository** are distributed under the [MIT license](LICENSE). Implementation repositories and third-party dependencies may use separate licenses; do not infer their license from this landing page.
 
 ---
 
 <div align="center">
-
-[![Website](https://img.shields.io/badge/nakharax.io-29F06A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://nakharax.io)
-[![XpFirm](https://img.shields.io/badge/xpfirm.com-111318?style=for-the-badge&logo=github&logoColor=white)](https://xpfirm.com)
-
-<sub>Landing page for nakharax.io · parent company NakharaX · product XpFirm (xpfirm.com) · maintained as a documentation and navigation entry point.</sub>
-
+<sub>NakharaX · Parent company & ecosystem · XpFirm is a product · Documentation review: 25 October 2026</sub>
 </div>

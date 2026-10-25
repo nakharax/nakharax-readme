@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="465" viewBox="0 0 1280 465" role="img" aria-labelledby="title desc">
+<title id="title">NakharaX ecosystem structure</title>
+<desc id="desc">Parent company NakharaX connects protocol research, AI and compute engineering, and the XpFirm trading workspace product.</desc>
+<defs>
+<linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B1120"/><stop offset="1" stop-color="#141428"/></linearGradient>
+<linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#57EFC9"/><stop offset=".5" stop-color="#9B92FF"/><stop offset="1" stop-color="#FEAD87"/></linearGradient>
+<linearGradient id="parent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1D2A46"/><stop offset="1" stop-color="#171B31"/></linearGradient>
+<radialGradient id="accent"><stop stop-color="#9C78FF" stop-opacity=".22"/><stop offset="1" stop-color="#9C78FF" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r=".7" fill="#A6B2CD" opacity=".25"/></pattern>
+</defs>
+<rect width="1280" height="465" rx="22" fill="url(#back)"/>
+<rect width="1280" height="465" rx="22" fill="url(#dots)"/>
+<circle cx="640" cy="80" r="330" fill="url(#accent)"/>
+<rect x="1" y="1" width="1278" height="463" rx="21" fill="none" stroke="#A6B6D7" stroke-opacity=".18"/>
+<text x="47" y="52" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="3" fill="#91A8C5">ONE ECOSYSTEM. DISTINCT MISSIONS.</text>
+<rect x="414" y="68" width="452" height="128" rx="19" fill="url(#parent)" stroke="#B6DAFB" stroke-opacity=".35"/>
+<rect x="414" y="68" width="452" height="3" rx="2" fill="url(#bar)"/>
+<text x="640" y="115" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#A5BBD4" letter-spacing="3">PARENT COMPANY</text>
+<text x="640" y="158" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="38" font-weight="750" fill="#F0F6FF" letter-spacing="2">NAKHARAX</text>
+<path d="M640 196V244 M216 244H1064 M216 244V265 M640 244V265 M1064 244V265" fill="none" stroke="#93A9C9" stroke-opacity=".5" stroke-width="2"/>
+<circle cx="640" cy="244" r="5" fill="#AA9AFF"/>
+<circle cx="216" cy="265" r="4" fill="#74F1CF"/>
+<circle cx="1064" cy="265" r="4" fill="#FFB188"/>
+<g>
+<rect x="45" y="277" width="346" height="145" rx="16" fill="#121F2E" stroke="#78EED1" stroke-opacity=".34"/>
+<rect x="46" y="278" width="344" height="3" rx="2" fill="#71EBD1"/>
+<text x="69" y="313" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" fill="#76F1D4" letter-spacing="1.8">01 / PROTOCOL</text>
+<text x="69" y="354" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#F0F7FF">NakharaX Protocol</text>
+<text x="69" y="381" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#A8B9CC">Experimental L1 + verifiable compute</text>
+<text x="69" y="406" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" fill="#7DB9AC">TESTNET / QUALIFICATION</text>
+</g>
+<g>
+<rect x="467" y="277" width="346" height="145" rx="16" fill="#1D1C31" stroke="#BAA7FF" stroke-opacity=".36"/>
+<rect x="468" y="278" width="344" height="3" rx="2" fill="#AC91FF"/>
+<text x="491" y="313" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" fill="#BBA8FF" letter-spacing="1.8">02 / ENGINEERING</text>
+<text x="491" y="354" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#F0F7FF">Compute + AI</text>
+<text x="491" y="381" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#B2B6CF">Systems, tooling and research</text>
+<text x="491" y="406" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" fill="#A696DB">R&amp;D / INTEGRATION</text>
+</g>
+<g>
+<rect x="889" y="277" width="346" height="145" rx="16" fill="#291E25" stroke="#FAB99E" stroke-opacity=".32"/>
+<rect x="890" y="278" width="344" height="3" rx="2" fill="#FCB48F"/>
+<text x="913" y="313" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" fill="#F8B38C" letter-spacing="1.8">03 / PRODUCTS</text>
+<text x="913" y="354" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" fill="#F0F7FF">XpFirm</text>
+<text x="913" y="381" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#D2BCC0">Trading risk + performance workspace</text>
+<text x="913" y="406" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" fill="#DDAA93">CUSTOMER PRODUCT</text>
+</g>
+<text x="640" y="452" text-anchor="middle" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" fill="#6F829C" letter-spacing="1.4">DISTINCT DELIVERY AND READINESS GATES FOR EACH WORKSTREAM</text>
+</svg>

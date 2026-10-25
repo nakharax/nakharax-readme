@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="414" viewBox="0 0 1280 414" role="img" aria-labelledby="title desc">
+<title id="title">XpFirm: Clarity before action</title>
+<desc id="desc">Illustrative product concept card for XpFirm, with stylized risk guardrail, trading journaling and decision quality visual elements. It does not depict live financial or trading performance data.</desc>
+<defs>
+<linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#120F17"/><stop offset=".52" stop-color="#1A1621"/><stop offset="1" stop-color="#111827"/></linearGradient>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2=".4"><stop stop-color="#FFA184"/><stop offset=".6" stop-color="#FDCAAB"/><stop offset="1" stop-color="#A98DF8"/></linearGradient>
+<radialGradient id="r"><stop stop-color="#FD9D77" stop-opacity=".38"/><stop offset="1" stop-color="#FD9D77" stop-opacity="0"/></radialGradient>
+<pattern id="p" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity=".045"/></pattern>
+</defs>
+<rect width="1280" height="414" rx="24" fill="url(#b)"/>
+<rect width="1280" height="414" rx="24" fill="url(#p)"/>
+<ellipse cx="1079" cy="68" rx="500" ry="264" fill="url(#r)"/>
+<rect x="1" y="1" width="1278" height="412" rx="23" fill="none" stroke="#D5AB9D" stroke-opacity=".27"/>
+<rect x="53" y="54" width="56" height="4" rx="2" fill="#FFAD92"/>
+<text x="53" y="96" fill="#E8BDC0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3">FEATURED PRODUCT / XPFIRM</text>
+<text x="49" y="160" fill="#F9EEF0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="47" font-weight="750" letter-spacing="-1.8">Clarity before</text>
+<text x="49" y="218" fill="url(#g)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="47" font-weight="750" letter-spacing="-1.8">every decision.</text>
+<text x="53" y="273" fill="#BDADB7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19">A workspace for trading risk,</text>
+<text x="53" y="301" fill="#BDADB7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19">discipline and performance review.</text>
+<rect x="54" y="337" width="178" height="37" rx="18" fill="#34242A" stroke="#FFA98C" stroke-opacity=".46"/>
+<text x="143" y="361" text-anchor="middle" fill="#FFD0BB" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">XPFIRM.COM</text>
+<g transform="translate(660 36)">
+<rect width="571" height="335" rx="20" fill="#111622" stroke="#E1D6FF" stroke-opacity=".28"/>
+<rect width="571" height="52" rx="20" fill="#1C2130"/>
+<rect y="31" width="571" height="21" fill="#1C2130"/>
+<circle cx="27" cy="26" r="5" fill="#FFB18D"/><circle cx="46" cy="26" r="5" fill="#AF94ED"/><circle cx="65" cy="26" r="5" fill="#74EACF"/>
+<text x="95" y="31" fill="#BBC5DD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.7">XPFIRM / WORKSPACE</text>
+<rect x="28" y="77" width="244" height="93" rx="12" fill="#1B2332" stroke="#73819B" stroke-opacity=".3"/>
+<text x="47" y="106" fill="#9CA9BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="1.5">RISK BOUNDARY</text>
+<rect x="47" y="128" width="195" height="8" rx="4" fill="#30394B"/>
+<rect x="47" y="128" width="116" height="8" rx="4" fill="#FFAD8B"/>
+<text x="47" y="156" fill="#B6C1D2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10">GUARDRAIL VISUAL / CONCEPT</text>
+<rect x="290" y="77" width="250" height="93" rx="12" fill="#1B2332" stroke="#73819B" stroke-opacity=".3"/>
+<text x="310" y="106" fill="#9CA9BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="1.5">DECISION REVIEW</text>
+<path d="M311 130H510" stroke="#455064" stroke-width="2" stroke-dasharray="6 6"/>
+<path d="M311 148H465" stroke="#455064" stroke-width="2" stroke-dasharray="6 6"/>
+<path d="M488 139l11 11 21-25" fill="none" stroke="#8DE6CA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="28" y="186" width="512" height="122" rx="12" fill="#171F2B" stroke="#73819B" stroke-opacity=".3"/>
+<text x="47" y="211" fill="#9CA9BD" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="1.5">PERFORMANCE CONTEXT / ILLUSTRATIVE</text>
+<path d="M48 237H516 M48 264H516 M48 291H516" stroke="#708097" stroke-opacity=".17"/>
+<polyline points="48,282 88,277 128,274 168,285 208,269 248,259 288,270 328,252 368,259 408,239 448,247 488,231 519,238" fill="none" stroke="#FFAD8E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="48,276 88,273 128,277 168,264 208,270 248,253 288,264 328,244 368,254 408,234 448,242 488,226 519,233" fill="none" stroke="#AA98F6" stroke-opacity=".35" stroke-width="7" stroke-linecap="round"/>
+</g>
+<text x="1231" y="394" text-anchor="end" fill="#7C8294" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">CONCEPT VISUAL — NOT LIVE ACCOUNT DATA</text>
+</svg>

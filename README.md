@@ -54,7 +54,7 @@ We believe infrastructure and products should be connected by **engineering disc
   <img src="./assets/xpfirm-spotlight.png" alt="XpFirm trading risk and performance workspace; conceptual product visualization, not real account data." width="100%" />
 </a>
 
-**A focused workspace for traders who take risk seriously.** XpFirm is a NakharaX product centered on risk awareness, trade decisions, and reviewing performance with more context.
+**A risk and behavior workspace for self-directed traders — Free Core Forever is the chosen product direction.** XpFirm is a NakharaX product focused on risk visibility, user-defined rules, and evidence-based review. Free Core is being introduced through a controlled, feature-flagged pilot; it must not be mistaken for universal live access.
 
 <table>
 <tr>
@@ -66,7 +66,7 @@ We believe infrastructure and products should be connected by **engineering disc
 
 <sub>Product illustration above is conceptual. It is not a screenshot, a live trading account, a verified performance record, or a guarantee that each depicted interface element is currently shipped.</sub>
 
-[**Explore XpFirm →**](https://xpfirm.com)
+[**Explore XpFirm →**](https://xpfirm.com) · [Free Core implementation and rollout](https://github.com/nakharax/nakharax-xpfirm/blob/main/docs/README_FREE_CORE_ALIGNMENT_2026-10-26.md) *(implementation repository may require access)*
 
 ## 03 · Proof over promises
 
@@ -111,7 +111,7 @@ Technical ambition matters. **Operational evidence matters more.** NakharaX Prot
 
 **Brand assets:** [View the supplied Aurora logo](./assets/nakharax-aurora-logo.jpg) · [View the GitHub hero banner](./assets/nakharax-aurora-hero.jpg). The README hero uses the supplied logo artwork, not a newly invented symbol.
 
-The infrastructure initiative was formerly called **Axionax Protocol**. Historic names and development artifacts may still appear in code and migration notes; they do not supersede current naming or operating evidence.
+The infrastructure initiative was formerly called **Axionax Protocol**. The separately maintained [NakharaX Protocol repository](https://github.com/nakharax/nakharax) is private; the former public [Axionax Core](https://github.com/nakharax/axionax-core-universe) and [Axionax Web](https://github.com/nakharax/axionax-web-universe) repositories are archived historical snapshots, **not current deployment sources**. Historic names and development artifacts may still appear in code and migration notes; they do not supersede current naming or operating evidence.
 
 <details>
 <summary><strong>Repository layout and contribution notes</strong></summary>
@@ -122,7 +122,8 @@ This repository (`nakharax/nakharax-readme`) is **the public-facing landing page
 nakharax-readme/
 ├── README.md
 ├── assets/
-│   ├── aurora-hero.png
+│   ├── nakharax-aurora-hero.jpg
+│   ├── nakharax-aurora-logo.jpg
 │   ├── ecosystem-map.png
 │   ├── xpfirm-spotlight.png
 │   ├── nakharax_brand.svg

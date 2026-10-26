@@ -50,9 +50,7 @@ We believe infrastructure and products should be connected by **engineering disc
 
 ## 02 · Featured product — XpFirm
 
-<a href="https://xpfirm.com">
-  <img src="./assets/xpfirm-spotlight.png" alt="XpFirm trading risk and performance workspace; conceptual product visualization, not real account data." width="100%" />
-</a>
+<p align="center"><strong>RISK CONTEXT · SELF-DEFINED RULES · EVIDENCE-BASED REVIEW</strong></p>
 
 **A risk and behavior workspace for self-directed traders — Free Core Forever is the chosen product direction.** XpFirm is a NakharaX product focused on risk visibility, user-defined rules, and evidence-based review. Free Core is being introduced through a controlled, feature-flagged pilot; it must not be mistaken for universal live access.
 
@@ -64,7 +62,7 @@ We believe infrastructure and products should be connected by **engineering disc
 </tr>
 </table>
 
-<sub>Product illustration above is conceptual. It is not a screenshot, a live trading account, a verified performance record, or a guarantee that each depicted interface element is currently shipped.</sub>
+<sub>Authentic XpFirm application screenshots are maintained with the product's private implementation repository. This public landing page deliberately does not present an AI illustration as a real trading dashboard or disclose private customer data.</sub>
 
 [**Explore XpFirm →**](https://xpfirm.com) · [Free Core implementation and rollout](https://github.com/nakharax/nakharax-xpfirm/blob/main/docs/README_FREE_CORE_ALIGNMENT_2026-10-26.md) *(implementation repository may require access)*
 
@@ -125,7 +123,7 @@ nakharax-readme/
 │   ├── nakharax-aurora-hero.jpg
 │   ├── nakharax-aurora-logo.jpg
 │   ├── ecosystem-map.png
-│   ├── xpfirm-spotlight.png
+│   ├── xpfirm-spotlight.png  # Retained legacy concept art; not displayed as product UI
 │   ├── nakharax_brand.svg
 │   └── nakharax_token.svg
 ├── .github/
